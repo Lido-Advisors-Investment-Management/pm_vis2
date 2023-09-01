@@ -1,0 +1,550 @@
+
+<html>
+<head>
+<div style="overflow:visible; width:1350px; height:800px">
+<style>
+    h2 {
+        text-align: center;
+        font-family: Noe Display;
+        color: #818735;
+    }
+    table { 
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .scroll
+		{
+        min-height: 67.5%;
+        width: 26.5%;
+        position: absolute;
+        top: 162%;
+        overflow: visible;
+        }
+
+    th, td {
+        padding: 2px;
+        text-align: center;
+        font-family: Untitled Sans;
+        font-size: 75%;
+    }
+
+    th {
+        color: black;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+
+
+    }
+    table tbody tr:hover {
+        background-color: #dddddd;
+        color: #041525;
+    }
+    .wide {
+        width: 100%; 
+    }
+    }
+
+</style>
+</head>
+<body>
+    <h2> Options Available Trades </h2>
+<table border="1" class="dataframe wide">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Underlying Asset</th>
+      <th>Asset Price</th>
+      <th>Minimum ($)</th>
+      <th>Expiration Date</th>
+      <th>Months Left</th>
+      <th>Potential Upside (%)</th>
+      <th>Annual Potential Upside (%)</th>
+      <th>Downside Before Protection (%)</th>
+      <th>Protection (%)</th>
+      <th>Annual_Protection (%)</th>
+      <th>Spread (%)</th>
+      <th>Collateral</th>
+      <th>Trade Type</th>
+      <th>Fact Sheet</th>
+      <th>As Of</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2025-12-19</td>
+      <td>27.6</td>
+      <td>Uncapped</td>
+      <td>Uncapped</td>
+      <td>0.00%</td>
+      <td>11.11%</td>
+      <td>4.83%</td>
+      <td>NA</td>
+      <td>UST</td>
+      <td>Uncapped UST</td>
+      <td><a href="https://jgarden79.github.io/html/2025-12-19_L_SPY_uncust.html">Uncapped UST</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2025-12-19</td>
+      <td>27.6</td>
+      <td>Uncapped</td>
+      <td>Uncapped</td>
+      <td>0.00%</td>
+      <td>22.22%</td>
+      <td>9.66%</td>
+      <td>NA</td>
+      <td>BSCP</td>
+      <td>Uncapped Plus</td>
+      <td><a href="https://jgarden79.github.io/html/2025-12-19_L_SPY_unc.html">Uncapped Plus</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2025-12-19</td>
+      <td>27.6</td>
+      <td>Uncapped</td>
+      <td>Uncapped</td>
+      <td>7.14%</td>
+      <td>31.11%</td>
+      <td>13.52%</td>
+      <td>NA</td>
+      <td>BSCP</td>
+      <td>Uncapped Gap</td>
+      <td><a href="https://jgarden79.github.io/html/2025-12-19_L_SPY_uncapped_gap.html">Uncapped Gap</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>225000.0</td>
+      <td>2025-12-19</td>
+      <td>27.6</td>
+      <td>Uncapped - Levered Upside</td>
+      <td>Uncapped - Levered Upside</td>
+      <td>-5.56%</td>
+      <td>-20.00%</td>
+      <td>-8.69%</td>
+      <td>NA</td>
+      <td>BSCP</td>
+      <td>SPY Killer</td>
+      <td><a href="https://jgarden79.github.io/html/2025-12-19_L_SPY_spykiller12.html">SPY Killer</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2024-03-15</td>
+      <td>6.4</td>
+      <td>5.56%</td>
+      <td>10.35%</td>
+      <td>0.00%</td>
+      <td>32.22%</td>
+      <td>60.01%</td>
+      <td>37.78%</td>
+      <td>UST</td>
+      <td>Capped and Cushion</td>
+      <td><a href="https://jgarden79.github.io/html/2024-03-15_L_SPY_capp_cush.html">Capped and Cushion</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2024-06-21</td>
+      <td>9.7</td>
+      <td>7.78%</td>
+      <td>9.66%</td>
+      <td>0.00%</td>
+      <td>60.00%</td>
+      <td>74.49%</td>
+      <td>67.78%</td>
+      <td>UST</td>
+      <td>Capped and Cushion</td>
+      <td><a href="https://jgarden79.github.io/html/2024-06-21_L_SPY_capp_cush.html">Capped and Cushion</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2024-09-20</td>
+      <td>12.7</td>
+      <td>10.00%</td>
+      <td>9.48%</td>
+      <td>0.00%</td>
+      <td>66.67%</td>
+      <td>63.20%</td>
+      <td>76.67%</td>
+      <td>UST</td>
+      <td>Capped and Cushion</td>
+      <td><a href="https://jgarden79.github.io/html/2024-09-20_L_SPY_capp_cush.html">Capped and Cushion</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2025-01-17</td>
+      <td>16.6</td>
+      <td>12.22%</td>
+      <td>8.85%</td>
+      <td>0.00%</td>
+      <td>42.22%</td>
+      <td>30.58%</td>
+      <td>54.44%</td>
+      <td>UST</td>
+      <td>Capped and Cushion</td>
+      <td><a href="https://jgarden79.github.io/html/2025-01-17_L_SPY_capp_cush.html">Capped and Cushion</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2025-03-21</td>
+      <td>18.6</td>
+      <td>13.33%</td>
+      <td>8.58%</td>
+      <td>0.00%</td>
+      <td>58.89%</td>
+      <td>37.91%</td>
+      <td>72.22%</td>
+      <td>UST</td>
+      <td>Capped and Cushion</td>
+      <td><a href="https://jgarden79.github.io/html/2025-03-21_L_SPY_capp_cush.html">Capped and Cushion</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2025-06-20</td>
+      <td>21.6</td>
+      <td>14.44%</td>
+      <td>8.01%</td>
+      <td>0.00%</td>
+      <td>65.56%</td>
+      <td>36.36%</td>
+      <td>80.00%</td>
+      <td>UST</td>
+      <td>Capped and Cushion</td>
+      <td><a href="https://jgarden79.github.io/html/2025-06-20_L_SPY_capp_cush.html">Capped and Cushion</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2024-03-15</td>
+      <td>6.4</td>
+      <td>7.75%</td>
+      <td>14.43%</td>
+      <td>5.17%</td>
+      <td>51.76%</td>
+      <td>96.40%</td>
+      <td>59.51%</td>
+      <td>SPY</td>
+      <td>Gap Trade</td>
+      <td><a href="https://jgarden79.github.io/html/2024-03-15_L_SPY_gap.html">Gap Trade</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2024-06-21</td>
+      <td>9.7</td>
+      <td>12.19%</td>
+      <td>15.13%</td>
+      <td>4.68%</td>
+      <td>23.33%</td>
+      <td>28.96%</td>
+      <td>35.52%</td>
+      <td>SPY</td>
+      <td>Gap Trade</td>
+      <td><a href="https://jgarden79.github.io/html/2024-06-21_L_SPY_gap.html">Gap Trade</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2024-09-20</td>
+      <td>12.7</td>
+      <td>16.63%</td>
+      <td>15.77%</td>
+      <td>4.68%</td>
+      <td>18.88%</td>
+      <td>17.90%</td>
+      <td>35.52%</td>
+      <td>SPY</td>
+      <td>Gap Trade</td>
+      <td><a href="https://jgarden79.github.io/html/2024-09-20_L_SPY_gap.html">Gap Trade</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2025-01-17</td>
+      <td>16.6</td>
+      <td>23.30%</td>
+      <td>16.87%</td>
+      <td>4.68%</td>
+      <td>7.78%</td>
+      <td>5.63%</td>
+      <td>31.07%</td>
+      <td>SPY</td>
+      <td>Gap Trade</td>
+      <td><a href="https://jgarden79.github.io/html/2025-01-17_L_SPY_gap.html">Gap Trade</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2025-03-21</td>
+      <td>18.6</td>
+      <td>26.63%</td>
+      <td>17.14%</td>
+      <td>4.68%</td>
+      <td>10.00%</td>
+      <td>6.44%</td>
+      <td>36.63%</td>
+      <td>SPY</td>
+      <td>Gap Trade</td>
+      <td><a href="https://jgarden79.github.io/html/2025-03-21_L_SPY_gap.html">Gap Trade</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>SPY</td>
+      <td>450.129</td>
+      <td>45000.0</td>
+      <td>2025-06-20</td>
+      <td>21.6</td>
+      <td>31.07%</td>
+      <td>17.24%</td>
+      <td>4.68%</td>
+      <td>10.00%</td>
+      <td>5.55%</td>
+      <td>41.07%</td>
+      <td>SPY</td>
+      <td>Gap Trade</td>
+      <td><a href="https://jgarden79.github.io/html/2025-06-20_L_SPY_gap.html">Gap Trade</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>QQQ</td>
+      <td>376.435</td>
+      <td>37600.0</td>
+      <td>2024-03-15</td>
+      <td>6.4</td>
+      <td>7.45%</td>
+      <td>13.87%</td>
+      <td>0.00%</td>
+      <td>18.88%</td>
+      <td>35.16%</td>
+      <td>26.33%</td>
+      <td>UST</td>
+      <td>Capped and Cushion</td>
+      <td><a href="https://jgarden79.github.io/html/2024-03-15_L_QQQ_capp_cush.html">Capped and Cushion</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>QQQ</td>
+      <td>376.435</td>
+      <td>37500.0</td>
+      <td>2024-06-21</td>
+      <td>9.7</td>
+      <td>10.67%</td>
+      <td>13.24%</td>
+      <td>0.00%</td>
+      <td>25.33%</td>
+      <td>31.45%</td>
+      <td>36.00%</td>
+      <td>UST</td>
+      <td>Capped and Cushion</td>
+      <td><a href="https://jgarden79.github.io/html/2024-06-21_L_QQQ_capp_cush.html">Capped and Cushion</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>QQQ</td>
+      <td>376.435</td>
+      <td>37500.0</td>
+      <td>2024-09-20</td>
+      <td>12.7</td>
+      <td>13.33%</td>
+      <td>12.64%</td>
+      <td>0.00%</td>
+      <td>29.33%</td>
+      <td>27.81%</td>
+      <td>42.67%</td>
+      <td>UST</td>
+      <td>Capped and Cushion</td>
+      <td><a href="https://jgarden79.github.io/html/2024-09-20_L_QQQ_capp_cush.html">Capped and Cushion</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>QQQ</td>
+      <td>376.435</td>
+      <td>37500.0</td>
+      <td>2025-01-17</td>
+      <td>16.6</td>
+      <td>14.67%</td>
+      <td>10.62%</td>
+      <td>0.00%</td>
+      <td>53.33%</td>
+      <td>38.62%</td>
+      <td>68.00%</td>
+      <td>UST</td>
+      <td>Capped and Cushion</td>
+      <td><a href="https://jgarden79.github.io/html/2025-01-17_L_QQQ_capp_cush.html">Capped and Cushion</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>QQQ</td>
+      <td>376.435</td>
+      <td>37500.0</td>
+      <td>2025-06-20</td>
+      <td>21.6</td>
+      <td>18.67%</td>
+      <td>10.35%</td>
+      <td>0.00%</td>
+      <td>57.33%</td>
+      <td>31.80%</td>
+      <td>76.00%</td>
+      <td>UST</td>
+      <td>Capped and Cushion</td>
+      <td><a href="https://jgarden79.github.io/html/2025-06-20_L_QQQ_capp_cush.html">Capped and Cushion</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>QQQ</td>
+      <td>376.435</td>
+      <td>37600.0</td>
+      <td>2024-03-15</td>
+      <td>6.4</td>
+      <td>9.45%</td>
+      <td>17.59%</td>
+      <td>7.55%</td>
+      <td>57.11%</td>
+      <td>106.36%</td>
+      <td>66.56%</td>
+      <td>QQQ</td>
+      <td>Gap Trade</td>
+      <td><a href="https://jgarden79.github.io/html/2024-03-15_L_QQQ_gap.html">Gap Trade</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>QQQ</td>
+      <td>376.435</td>
+      <td>37600.0</td>
+      <td>2024-06-21</td>
+      <td>9.7</td>
+      <td>14.23%</td>
+      <td>17.67%</td>
+      <td>7.55%</td>
+      <td>29.22%</td>
+      <td>36.28%</td>
+      <td>43.45%</td>
+      <td>QQQ</td>
+      <td>Gap Trade</td>
+      <td><a href="https://jgarden79.github.io/html/2024-06-21_L_QQQ_gap.html">Gap Trade</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>QQQ</td>
+      <td>376.435</td>
+      <td>37600.0</td>
+      <td>2024-09-20</td>
+      <td>12.7</td>
+      <td>19.54%</td>
+      <td>18.53%</td>
+      <td>7.55%</td>
+      <td>19.92%</td>
+      <td>18.89%</td>
+      <td>39.47%</td>
+      <td>QQQ</td>
+      <td>Gap Trade</td>
+      <td><a href="https://jgarden79.github.io/html/2024-09-20_L_QQQ_gap.html">Gap Trade</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>QQQ</td>
+      <td>376.435</td>
+      <td>37600.0</td>
+      <td>2025-01-17</td>
+      <td>16.6</td>
+      <td>26.18%</td>
+      <td>18.96%</td>
+      <td>7.55%</td>
+      <td>17.27%</td>
+      <td>12.51%</td>
+      <td>43.45%</td>
+      <td>QQQ</td>
+      <td>Gap Trade</td>
+      <td><a href="https://jgarden79.github.io/html/2025-01-17_L_QQQ_gap.html">Gap Trade</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>QQQ</td>
+      <td>376.435</td>
+      <td>37600.0</td>
+      <td>2025-06-20</td>
+      <td>21.6</td>
+      <td>35.48%</td>
+      <td>19.68%</td>
+      <td>7.55%</td>
+      <td>14.61%</td>
+      <td>8.10%</td>
+      <td>50.09%</td>
+      <td>QQQ</td>
+      <td>Gap Trade</td>
+      <td><a href="https://jgarden79.github.io/html/2025-06-20_L_QQQ_gap.html">Gap Trade</a></td>
+      <td>09-01-2023, 11:33:44</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
